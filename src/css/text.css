@@ -1,0 +1,16 @@
+.TextTitle {
+  font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium",
+    "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
+  font-size: 27px;
+  margin-left: 57px;
+}
+
+.TeamTextTitle {
+  height: 24px;
+  cursor: default;
+  font-family: "HelveticaNeueLight", "HelveticaNeue-Light",
+    "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
+  font-size: 15px;
+}

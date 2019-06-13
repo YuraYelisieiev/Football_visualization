@@ -1,0 +1,40 @@
+body {
+  background-color: lightgray;
+  margin: 0;
+}
+
+.TeamContainer {
+  margin-left: 60px;
+  display: grid;
+  width: 750px;
+  grid-template-columns: 50px 300px 50px 50px 50px 70px 30px 30px 60px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: "number name games moments goals goalsInOur wins draws loses score";
+}
+
+.TeamContainer:hover {
+  background-color: lightblue;
+}
+
+.TeamContainer__number {
+  grid-area: number;
+}
+
+.TeamContainer__name {
+  grid-area: name;
+}
+
+.TeamContainer__goals {
+  stroke-width: 1;
+  markerwdith: 10;
+  marker-end: url(#triangle);
+  grid-area: goals;
+}
+
+.TeamContainer__goalsInOur {
+  grid-area: goalsInOur;
+}
+
+.TeamContainer__wins {
+  grid-area: wins;
+}

@@ -1,0 +1,52 @@
+{
+  "teams": [
+
+    {
+      "name": "Chelsea",
+      "games": 4,
+      "madeMoments": 2,
+      "goalsAmount": 3,
+      "goalsInOur": 12,
+      "wins": 3,
+      "draw": 1,
+      "loses": 0,
+      "score": 12,
+      "goals": [{
+        "x1": 50,
+        "y1": 312,
+        "x2": 150,
+        "y2": 200
+      }, {
+        "x1": 49,
+        "y1": 265,
+        "x2": 80,
+        "y2": 320
+      }]
+    },{
+      "name": "ManCity",
+      "games": 4,
+      "madeMoments": 2,
+      "goalsAmount": 3,
+      "goalsInOur": 1,
+      "wins": 4,
+      "draw": 0,
+      "loses": 0,
+      "score": 12,
+      "goals": [{
+        "x1": 45,
+        "y1": 300,
+        "x2": 200,
+        "y2": 100
+      }, {
+        "x1": 49,
+        "y1": 250,
+        "x2": 210,
+        "y2": 410
+      }, {
+        "x1": 47,
+        "y1": 270,
+        "x2": 320,
+        "y2": 320
+      }]
+    }]
+}
